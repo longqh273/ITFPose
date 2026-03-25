@@ -18,14 +18,17 @@ pip install -r requirements.txt
 pip install -v -e .
 
 Usage
+
 Dataset preparation
 Please download the dataset from https://github.com/AlexTheBad/AP-10K.
 CLIP Pretrained models
 please download the CLIP Pretrained models from https://github.com/openai/CLIP
 
 training
+
 python tools/train.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/ap10k/ITFPose_ap10k_256x256.py 
 Evaluation
+
 python tools/test.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/ap10k/ITFPose_ap10k_256x256.py  checkpionts/epoch_460.pth
 
 
