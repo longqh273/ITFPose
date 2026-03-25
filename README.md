@@ -1,8 +1,10 @@
 ITFPose
+
 mainresult:models can be downloaded from 链接: https://pan.baidu.com/s/13JR_iN43df1jfCdff2wl7Q?pwd=5a3j 提取码: 5a3j
 
 Requirements
 Installation
+
 Linux, CUDA>=9.2, GCC>=5.4
 Python>=3.6
 PyTorch>=1.5.0, torchvision>=0.6.0
